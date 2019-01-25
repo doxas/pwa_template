@@ -8,23 +8,11 @@
         <script src="./js/script.js"></script>
         <link rel="stylesheet" href="./style/style.css">
         <link rel="apple-touch-icon" href="icon-256.png">
-        <script>
-            if('serviceWorker' in navigator){
-                navigator.serviceWorker.register('./sw.js')
-                .then((regist) => {
-                    console.log('ServiceWorker registration success');
-                    console.log(regist);
-                })
-                .catch((err) => {
-                    console.log('ServiceWorker registration failed');
-                    console.log(err);
-                });
-            }
-        </script>
         <link rel="manifest" href="./manifest.json">
         <title>pwa template</title>
     </head>
     <body>
         <p>paragraph</p>
+        <p><img src='./image/doxas.png'></p>
     </body>
 </html>
